@@ -1,9 +1,9 @@
-import Header from "./components/Header"
-import Bonus from "./sections/Bonus"
-import Cartaoideal from "./sections/Cartaoideal"
-import Frase from "./sections/Frase.jsx"
-import Herosection from "./sections/Herosection"
-import Ultrablue from "./sections/Ultrablue"
+import Header from "./components/header.jsx"
+import Bonus from "./sections/bonus.jsx"
+import Cartaoideal from "./sections/cartaoideal.jsx"
+import Frase from "./sections/frase.jsx"
+import Herosection from "./sections/herosection.jsx"
+import Ultrablue from "./sections/ultrablue.jsx"
 
 function App() {
 
