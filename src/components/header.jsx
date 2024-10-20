@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Btglogo from "../assets/btglogo.png"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ function Header() {
         }`}
       >
         <div className="flex justify-between lg:justify-around items-center p-4">
-          <img src="../src/assets/btglogo.png" alt="btg logo" className="w-[90px] lg:w-[111px]" />
+          <img src={Btglogo} alt="btg logo" className="w-[90px] lg:w-[111px]" />
 
           <button
             className="text-white lg:hidden"

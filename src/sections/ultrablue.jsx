@@ -1,3 +1,5 @@
+import Cartão from "../assets/cartão.png"
+
 function Ultrablue () {
     
     return (
@@ -8,7 +10,7 @@ function Ultrablue () {
                     <h2 className="text-[35px] lg:text-[60px] font-semibold leading-tight bg-gradient-to-r from-[#08102D] to-[#5F739B] bg-clip-text text-transparent md:text-center lg:text-start ">Por que ser Ultrablue?</h2>
                     <p className="text-[20px] lg:text-[22px] font-semibold text-[#7A89A6]"><span className="text-[#172848]">O Ultrablue</span> traduz o melhor do <span className="text-[#172848]">DNA do BTG Pactual</span> em um único produto que entrega <span className="text-[#172848]">excelência, refinamento e inovação</span> além das expectativas.</p>
                 </div>
-                <img src="../src/assets/cartão.png" alt="cartão ultrablue"/>
+                <img src={Cartão } />
             </div>
         </section>
         </>
