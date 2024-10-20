@@ -53,7 +53,7 @@ function Header() {
         </div>
 
         {isOpen && (
-          <ul className="flex flex-col lg:hidden text-white p-4 space-y-4 backdrop-blur-md">
+          <ul className="flex flex-col lg:hidden text-white p-5 pb-14 space-y-4 text-[20px]">
             <li>Ultrablue</li>
             <li>Experiências</li>
             <li>Dúvidas</li>
