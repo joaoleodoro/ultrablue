@@ -1,11 +1,11 @@
-import Phone from "../assets/app-phone.png"
+
 
 function Bonus () {
     return (
         <>
         <section className="bg-black p-7 lg:pt-1 pb-16">
                 <div className="flex flex-col items-center justify-center lg:flex-row mt-6 gap-[60px]">
-                    <img src={Phone} alt="app digital" className="hidden lg:block max-w-[500px]" />
+                    
 
                     <div className="flex flex-col gap-[60px]">
                         <h1 className="text-[32px] lg:text-[40px] font-semibold bg-gradient-to-r from-[#ffffff] to-[#A0AECA] bg-clip-text text-transparent leading-tight pr-2 max-w-[560px] ">
