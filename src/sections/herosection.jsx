@@ -3,7 +3,7 @@ import Bg1 from "../assets/bg1.png";
 function Herosection() {
   return (
     <>
-      <div
+      <section
         className="flex flex-col items-center justify-end bg-cover bg-center h-[650px] lg:h-screen pb-12 lg:gap-8"
         style={{ backgroundImage: `url(${Bg1})` }}
       >
@@ -21,7 +21,7 @@ function Herosection() {
             </button>
         </div>
         
-      </div> 
+      </section> 
     </>
   );
 }

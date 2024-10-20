@@ -1,6 +1,9 @@
 import Header from "./components/header"
-import Herosection from "./sections/herosection"
-import Ultrablue from "./sections/ultrablue"
+import Bonus from "./sections/Bonus"
+import Cartaoideal from "./sections/Cartãoideal"
+import Frase from "./sections/Frase"
+import Herosection from "./sections/Herosection"
+import Ultrablue from "./sections/Ultrablue"
 
 function App() {
 
@@ -9,6 +12,9 @@ function App() {
     <Header />
     <Herosection />
     <Ultrablue />
+    <Cartaoideal />
+    <Frase />
+    <Bonus />
     </>
   )
 }
