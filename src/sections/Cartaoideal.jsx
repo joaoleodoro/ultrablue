@@ -1,6 +1,35 @@
 import React, { useState } from 'react';
 
 function Cartaoideal() {
+
+    const data = [
+        {
+            title: "Experiências diferenciadas",
+            parag: "Prioriza viver experiências além do convencional",
+        },
+        {
+            title: "Serviço personalizado",
+            parag: "Quer um especialista à disposição para planejamento de viagens e outros serviços",
+        },
+        {
+            title: "Segurança",
+            parag: "Valoriza a segurança e a solidez de ser cliente do maior Banco de Investimentos da América Latina",
+        },
+        {
+            title: "Conforto",
+            parag: "Não dispensa conforto e exclusividade",
+        },
+        {
+            title: "Exclusividade",
+            parag: "Deseja acessar produtos e serviços sofisticados.",
+        },
+        {
+            title: "Atendimento único",
+            parag: "Busca atendimento 24/7 impecável em cada detalhe.",
+        },
+    ];
+
+
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handleNext = () => {
@@ -59,31 +88,6 @@ function Cartaoideal() {
     );
 }
 
-const data = [
-    {
-        title: "Experiências diferenciadas",
-        parag: "Prioriza viver experiências além do convencional",
-    },
-    {
-        title: "Serviço personalizado",
-        parag: "Quer um especialista à disposição para planejamento de viagens e outros serviços",
-    },
-    {
-        title: "Segurança",
-        parag: "Valoriza a segurança e a solidez de ser cliente do maior Banco de Investimentos da América Latina",
-    },
-    {
-        title: "Conforto",
-        parag: "Não dispensa conforto e exclusividade",
-    },
-    {
-        title: "Exclusividade",
-        parag: "Deseja acessar produtos e serviços sofisticados.",
-    },
-    {
-        title: "Atendimento único",
-        parag: "Busca atendimento 24/7 impecável em cada detalhe.",
-    },
-];
+
 
 export default Cartaoideal;

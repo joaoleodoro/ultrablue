@@ -1,7 +1,7 @@
 import Header from "./components/header"
-import Cartaoideal from "./sections/cartaoideal"
 import Herosection from "./sections/herosection"
 import Ultrablue from "./sections/ultrablue"
+import Cartaoideal from "./sections/cartaoideal"
 
 function App() {
 
