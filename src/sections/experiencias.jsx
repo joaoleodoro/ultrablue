@@ -19,7 +19,7 @@ function Cartaoideal() {
 
     return (
         <>
-            <section className="bg-black p-7 lg:p-20">
+            <section className="bg-black p-7 lg:p-20 pb-20">
                 
                     <div className="flex flex-col mt-6 bg-white pb-4  rounded-xl lg:rounded-3xl pt-10 pl-4 pr-4 md:p-14 lg:p-20">
                         <div className='flex flex-col gap-3'>

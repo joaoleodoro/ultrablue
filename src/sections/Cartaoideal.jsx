@@ -16,9 +16,9 @@ function Cartaoideal() {
         <>
             <section className="bg-black p-7 lg:p-20">
                 <div className="flex flex-col mt-6">
-                    <h1 className="text-[35px] lg:text-[60px] font-semibold bg-gradient-to-r from-[#ffffff] to-[#A0AECA] bg-clip-text text-transparent leading-tight max-w-[700px]">
+                    <h2 className="text-[35px] lg:text-[60px] font-semibold bg-gradient-to-r from-[#ffffff] to-[#A0AECA] bg-clip-text text-transparent leading-tight max-w-[700px]">
                         Esse é o Cartão ideal para quem:
-                    </h1>
+                    </h2>
 
                     <div className="relative flex mt-[60px] overflow-hidden">
                         <div
