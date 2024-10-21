@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Cartaoideal() {
+function Cartaoideal () {
 
     const data = [
         {
