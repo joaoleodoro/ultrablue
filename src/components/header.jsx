@@ -49,7 +49,10 @@ function Header() {
           <ul className="hidden lg:flex space-x-24 text-white ">
             <li>Ultrablue</li>
             <li>Experiências</li>
+            <li>Bõnus</li>
+            <li>Terminal</li>
             <li>Dúvidas</li>
+            
           </ul>
         </div>
 
@@ -57,6 +60,8 @@ function Header() {
           <ul className="flex flex-col lg:hidden text-white p-5 pb-14 space-y-4 text-[20px]">
             <li>Ultrablue</li>
             <li>Experiências</li>
+            <li>Bõnus</li>
+            <li>Terminal</li>
             <li>Dúvidas</li>
           </ul>
         )}
