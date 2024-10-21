@@ -20,7 +20,7 @@ function Cardsterminal() {
 
     return (
         <>
-            <section className="bg-black pb-20 flex justify-center">
+            <section className="bg-black pb-10 lg:pb-20 flex justify-center">
                 
                     <div className="flex flex-col ">
                         <div className="relative flex overflow-hidden ">
