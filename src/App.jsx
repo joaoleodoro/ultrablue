@@ -5,6 +5,7 @@ import Cartaoideal from "./sections/Cartaoideal"
 import Experiencias from "./sections/experiencias"
 import Herosection from "./sections/herosection"
 import Ultrablue from "./sections/ultrablue"
+import Terminal from "./sections/terminal"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Frase />
       <Bonus />
       <Experiencias />
+      <Terminal />
     </>
   )
 }
