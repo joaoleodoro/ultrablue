@@ -1,5 +1,6 @@
 import Bg3 from "../assets/bg3.png"
 import Iconcartao from "../assets/iconcartao.png"
+import Cardsterminal from "./cardsterminal"
 
 function Terminal () {
     return (
@@ -26,8 +27,8 @@ function Terminal () {
                     </div>
             </section>
             
-            <section className="bg-black lg:hidden">
-                <div className="flex flex-col lg:flex-row gap-10 p-8">
+            <section className="bg-black lg:hidden pb-8">
+                <div className="flex flex-col lg:flex-row gap-10 p-8 max-w-[700px]">
                     <p className="text-[20px] lg:text-[25px] text-[#E3E9F5] font-semibold">
                         O Terminal BTG Pactual é o primeiro terminal exclusivo da América Latina, com hospitalidade 5 estrelas e serviços diferenciados para tornar a sua jornada inesquecível.
                     ​</p>
@@ -40,9 +41,11 @@ function Terminal () {
                 </div>
             </section>
 
-            <section>
-
+            <section className="bg-black flex justify-start xl:justify-center p-3 overflow-hidden">
+                <Cardsterminal />
             </section>
+
+            
         </>
     )
 }
