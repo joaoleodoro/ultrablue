@@ -1,7 +1,7 @@
 import Header from "./components/header"
+import Frase from "./sections/Frase"
 import Herosection from "./sections/herosection"
 import Ultrablue from "./sections/ultrablue"
-import Cartaoideal from "./sections/cartaoideal"
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Herosection />
       <Ultrablue />
-      <Cartaoideal />
+      <Frase />
     </>
   )
 }
