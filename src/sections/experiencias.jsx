@@ -23,7 +23,7 @@ function Cartaoideal() {
                 
                     <div className="flex flex-col mt-6 bg-white pb-4  rounded-xl lg:rounded-3xl pt-10 pl-4 pr-4 md:p-14 lg:p-20">
                         <div className='flex flex-col gap-3'>
-                            <h1 className="text-[35px] lg:text-[60px] font-semibold bg-gradient-to-r from-[#08102D] to-[#5F739B] bg-clip-text text-transparent leading-tight max-w-[400px]">
+                            <h1 className="text-[35px] lg:text-[60px] font-semibold bg-gradient-to-r from-[#08102D] to-[#5F739B] bg-clip-text text-transparent leading-tight">
                             Experiências exclusivas
                             </h1>
                             <p className='text-[#7A89A6] text-[20px] font-semibold'>
@@ -32,15 +32,15 @@ function Cartaoideal() {
                         </div>
                         
 
-                        <div className="relative flex mt-[60px] overflow-hidden">
+                        <div className="relative flex mt-[60px] overflow-hidden ">
                             <div
-                                className="flex transition-transform duration-300 ease-in-out gap-5 lg:gap-4 "
+                                className="flex transition-transform duration-300 ease-in-out gap-5 lg:gap-4 lg:p-4"
                                 style={{ transform: `translateX(-${currentIndex * 25}%)` }}
                             >
                                 {data.map((d, index) => (
                                     <div
                                         key={index}
-                                        className="bg-white flex flex-col gap-[20px] w-[280px] rounded-3xl flex-shrink-0 shadow-md mb-2"
+                                        className="bg-white flex flex-col gap-[20px] w-[250px] lg:w-[280px] rounded-3xl flex-shrink-0 shadow-md mb-2 lg:hover:scale-[1.05] transition-all"
                                     >
                                         <img src={d.img} alt={d.img} className='rounded-t-3xl h-[162px]' />
                                         <p className="text-[#A0AECA] text-[14px] font-semibold p-3 pb-10">
