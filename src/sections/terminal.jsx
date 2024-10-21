@@ -1,5 +1,5 @@
 import Bg3 from "../assets/bg3.png"
-import Iconcartao from "../assets/Iconcartao.png"
+import Iconcartao from "../assets/iconcartao.png"
 
 function Terminal () {
     return (
