@@ -6,6 +6,8 @@ import Experiencias from "./sections/experiencias"
 import Herosection from "./sections/herosection"
 import Ultrablue from "./sections/ultrablue"
 import Terminal from "./sections/terminal"
+import Perguntas from "./sections/perguntas"
+import Footer from "./components/footer"
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
       <Bonus />
       <Experiencias />
       <Terminal />
+      <Perguntas />
+      <Footer />
     </>
   )
 }
