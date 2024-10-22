@@ -50,8 +50,8 @@ function Header() {
 
           <ul className="hidden lg:flex gap-16 text-white lg:items-center">
             <li><a href="#ultrablue">Ultrablue</a></li>
-            <li><a href="#experiencias">Experiências</a></li>
             <li><a href="#bonus">Bônus</a></li>
+            <li><a href="#experiencias">Experiências</a></li>
             <li><a href="#terminal">Terminal</a></li>
             <li><a href="#duvidas">Dúvidas</a></li>
           </ul>
@@ -60,8 +60,8 @@ function Header() {
         {isOpen && (
           <ul className="flex flex-col lg:hidden text-[#EBF1F9] p-5 pb-14 space-y-4 text-[22px] font-semibold">
             <li><a href="#ultrablue" onClick={() => setIsOpen(false)}>Ultrablue</a></li>
-            <li><a href="#experiencias" onClick={() => setIsOpen(false)}>Experiências</a></li>
             <li><a href="#bonus" onClick={() => setIsOpen(false)}>Bônus</a></li>
+            <li><a href="#experiencias" onClick={() => setIsOpen(false)}>Experiências</a></li>
             <li><a href="#terminal" onClick={() => setIsOpen(false)}>Terminal</a></li>
             <li><a href="#duvidas" onClick={() => setIsOpen(false)}>Dúvidas</a></li>
             <div className="flex flex-col lg:flex-row gap-5 mt-5">
