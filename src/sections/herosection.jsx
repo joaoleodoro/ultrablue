@@ -6,6 +6,7 @@ function Herosection() {
       <section
         className="flex flex-col items-center justify-end bg-cover bg-center h-[650px] lg:h-screen pb-12 lg:gap-8"
         style={{ backgroundImage: `url(${Bg1})` }}
+        
       >
         <div className="flex flex-col items-center text-center m-6 gap-5 lg:gap-2 pl-4 pr-4">
             <h2 className="text-[26px] lg:text-[40px] font-medium text-white">É tempo de ir além.</h2>

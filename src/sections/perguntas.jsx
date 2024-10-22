@@ -3,7 +3,7 @@ function Perguntas() {
 
     return (
         <>
-            <section className="bg-black p-7 lg:p-20 pb-20">
+            <section className="bg-black p-7 lg:p-20 pb-20" id="duvidas">
                 <div className="flex flex-col bg-white rounded-xl lg:rounded-3xl p-8 md:p-14 lg:p-20 gap-5">
                     <h2 className="text-[30px] lg:text-[60px] font-semibold bg-gradient-to-r from-[#08102D] to-[#5F739B] bg-clip-text text-transparent text-center">
                         Perguntas frequentes

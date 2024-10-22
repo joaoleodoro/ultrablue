@@ -3,7 +3,7 @@ import Phone from "../assets/app-phone.png"
 function Bonus () {
     return (
         <>
-        <section className="bg-black p-7 lg:pt-1 pb-16">
+        <section className="bg-black p-7 lg:pt-1 pb-16" id="bonus">
                 <div className="flex flex-col items-center justify-start lg:flex-col xl:flex-row mt-6 gap-[50px] xl:pt-[100px]">
                     <img src={Phone} alt="app digital" className="hidden lg:block max-w-[650px] hover:scale-[1.05] transition-all " />
 

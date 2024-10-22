@@ -4,7 +4,7 @@ function Ultrablue () {
     
     return (
         <>
-        <section className="bg-black p-7 lg:p-20">
+        <section className="bg-black p-7 lg:p-20" id="ultrablue">
             <div className="bg-gradient-to-r from-[#F6F8FA] to-[#E3E9F5] pb-4 flex flex-col xl:flex-row gap-5 rounded-xl lg:rounded-3xl items-center md:p-14 lg:p-20">
                 <div className="flex flex-col gap-3 p-7 lg:gap-14 lg:p-10 ">
                     <h2 className="text-[35px] lg:text-[60px] font-semibold leading-tight bg-gradient-to-r from-[#08102D] to-[#5F739B] bg-clip-text text-transparent md:text-center lg:text-start ">Por que ser Ultrablue?</h2>

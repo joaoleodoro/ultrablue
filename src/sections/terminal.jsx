@@ -10,7 +10,9 @@ function Terminal () {
     return (
         <>
             <section className="flex flex-col bg-cover lg:bg-no-repeat bg-center h-[600px] md:h-[800px] lg:h-[980px] bg-black "
-        style={{ backgroundImage: `url(${Bg3})` }}>
+            style={{ backgroundImage: `url(${Bg3})` }}
+            id="terminal"
+            >
                 
                     <div className="flex flex-col h-full items-center gap-[73px] p-8 md:p-20 pt-12">
                         <h2 className="text-[35px] md:text-[60px] font-semibold bg-gradient-to-r from-[#ffffff] to-[#A0AECA] bg-clip-text text-transparent leading-tight pr-5 md:text-center">
